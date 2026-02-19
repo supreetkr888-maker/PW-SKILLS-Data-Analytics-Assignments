@@ -1,4 +1,7 @@
+## ⚠ Important Note
 
+GitHub does not preview `.xlsx` files directly.  
+Please download the Excel file to view the complete solution.
 
 # 📊  Excel Conditional Functions & Data Analysis
 
