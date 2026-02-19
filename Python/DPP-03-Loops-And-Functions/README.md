@@ -1,146 +1,67 @@
-🐍 Introduction to Loops & Functions
+Maine tumhara PDF **“Introduction to Loops & Function – Practice Set”** analyse kar liya hai 
 
-Beginner Practice Set – Python Fundamentals
+Ab main tumhe **GitHub README ke liye clean, short & professional problem statements** de rahi hoon 👇
+Tum direct copy-paste kar sakti ho.
 
-This practice set focuses on building a strong foundation in loops, conditional statements, and basic logical thinking using Python.
-The problems are divided into three difficulty levels: Easy, Medium, and Hard.
+---
 
-🔹 Easy Level
-1️⃣ Understanding Loops
+# 📝 Practice Set – Introduction to Loops & Functions
 
-Objective:
-Explain what a loop is in Python and state two reasons why loops are used in programming.
+## 🔹 Easy Level
 
-Concepts Covered:
+### 1️⃣ Understanding Loops
 
-Loop fundamentals
+**Problem:** Explain what a loop is in Python and mention two reasons why loops are used in programming.
 
-Code repetition
+### 2️⃣ Positive or Negative Number
 
-Automation of tasks
+**Problem:** Write a program to check whether a given number is positive or negative.
+**Test Input:** -5
 
-2️⃣ Positive or Negative Number
+### 3️⃣ Even or Odd
 
-Objective:
-Write a program that checks whether a given number is positive or negative.
+**Problem:** Write a program to check whether a given number is even or odd.
+**Test Input:** 12
+**Expected Output:** 12 is an even number.
 
-Test Case:
-Input: -5
+---
 
-Concepts Covered:
+## 🔹 Medium Level
 
-User input
+### 4️⃣ Print Numbers 1 to 10
 
-Conditional statements (if-else)
+**Problem:** Use a `for` loop to print numbers from 1 to 10.
 
-3️⃣ Even or Odd
+### 5️⃣ Sum of Numbers (1–20)
 
-Objective:
-Determine whether a number is even or odd.
+**Problem:** Use a `for` loop to calculate the sum of numbers from 1 to 20.
+**Expected Output:** Sum: 210
 
-Test Case:
-Input: 12
-Expected Output: 12 is an even number
+### 6️⃣ Voting Eligibility
 
-Concepts Covered:
+**Problem:** Take age as input from the user and determine whether the person is eligible to vote.
+**Test Input:** 17
+**Expected Output:** You are not eligible to vote.
 
-Modulus operator
+---
 
-Conditional logic
+## 🔹 Hard Level
 
-🔹 Medium Level
-4️⃣ Print Numbers from 1 to 10
+### 7️⃣ Multiplication Table
 
-Objective:
-Print numbers from 1 to 10 using a for loop.
+**Problem:** Print the multiplication table of a number entered by the user using a `for` loop.
+**Test Input:** 5
 
-Concepts Covered:
+### 8️⃣ Print Even Numbers from List
 
-for loop
+**Problem:** Print all even numbers from the given list using a `for` loop and `if` statement.
+**List:** [2, 5, 8, 11, 14, 17, 20]
 
-range() function
+### 9️⃣ Largest Among Three Numbers
 
-5️⃣ Sum of Numbers (1–20)
+**Problem:** Take three numbers as input and find the largest number using `if-elif-else`.
+**Test Input:** 15, 42, 27
+**Expected Output:** The largest number is 42
 
-Objective:
-Calculate the sum of numbers from 1 to 20 using a loop.
+---
 
-Expected Output:
-Sum: 210
-
-Concepts Covered:
-
-Loop iteration
-
-Accumulator variable
-
-6️⃣ Voting Eligibility Checker
-
-Objective:
-Take age as input and determine whether the person is eligible to vote.
-
-Test Case:
-Input: 17
-Expected Output: You are not eligible to vote
-
-Concepts Covered:
-
-Conditional statements
-
-Real-world logic implementation
-
-🔹 Hard Level
-7️⃣ Multiplication Table Generator
-
-Objective:
-Print the multiplication table of a user-entered number using a loop.
-
-Test Case:
-Input: 5
-
-Concepts Covered:
-
-Nested logic
-
-Loop-based calculation
-
-8️⃣ Even Numbers from a List
-
-Objective:
-Print all even numbers from the given list using a loop and conditional statement.
-
-List:
-[2, 5, 8, 11, 14, 17, 20]
-
-Concepts Covered:
-
-List traversal
-
-Conditional filtering
-
-9️⃣ Largest Among Three Numbers
-
-Objective:
-Find the largest number among three user-input numbers using if-elif-else.
-
-Test Case:
-Input: 15, 42, 27
-Expected Output: The largest number is 42
-
-Concepts Covered:
-
-Multi-condition comparison
-
-Logical operators
-
-📚 Skills Strengthened
-
-Python Basics
-
-Control Flow Statements
-
-Loop Implementation
-
-Logical Thinking
-
-Problem Solving
