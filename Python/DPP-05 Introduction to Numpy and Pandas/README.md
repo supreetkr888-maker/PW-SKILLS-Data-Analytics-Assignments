@@ -1,174 +1,159 @@
-📊 Student Evaluation Data Analysis
-Introduction to NumPy & Pandas
 
-This project focuses on performing data cleaning, analysis, and insights extraction using Python libraries such as NumPy and Pandas on a student performance dataset.
+
+# 📊 Student Evaluation Data Analysis
+
+### Introduction to NumPy & Pandas
+
+This project focuses on performing **data cleaning, analysis, and insights extraction** using Python libraries such as **NumPy and Pandas** on a student performance dataset.
 
 The dataset contains 20 student records with both numerical and categorical features, including missing values that require preprocessing.
 
-📁 Dataset Overview
-🔹 Columns in Dataset
+---
 
-Student_ID → Unique identifier
+# 📁 Dataset Overview
 
-Name → Student name
+### 🔹 Columns in Dataset
 
-Subject → Math / Science / English
+* **Student_ID** → Unique identifier
+* **Name** → Student name
+* **Subject** → Math / Science / English
+* **Score** → Marks obtained (contains missing values)
+* **Hours_Studied** → Study hours (contains missing values)
+* **Gender** → M / F
+* **Region** → North / South / East / West
 
-Score → Marks obtained (contains missing values)
+### 🔹 Dataset Characteristics
 
-Hours_Studied → Study hours (contains missing values)
+* 20 records
+* Missing values in `Score` and `Hours_Studied`
+* Combination of categorical & numerical data
+* Suitable for cleaning, grouping, aggregation, and insight extraction
 
-Gender → M / F
+---
 
-Region → North / South / East / West
+# 🛠 Tools & Libraries Used
 
-🔹 Dataset Characteristics
+* Python 3
+* NumPy (mean, median, std, correlation)
+* Pandas (data cleaning, grouping, aggregation)
+* Matplotlib / Seaborn (optional visualizations)
 
-20 records
+---
 
-Missing values in Score and Hours_Studied
+# 📌 Project Tasks
 
-Combination of categorical & numerical data
+---
 
-Suitable for cleaning, grouping, aggregation, and insight extraction
+## 🔹 Task 1: Data Cleaning
 
-🛠 Tools & Libraries Used
+**Objectives:**
 
-Python 3
+* Identify missing values in the dataset
+* Replace missing `Score` values with subject-wise average
+* Replace missing `Hours_Studied` values with overall mean
+* Drop rows where both `Score` and `Hours_Studied` are missing
 
-NumPy (mean, median, std, correlation)
+**Skills Applied:**
 
-Pandas (data cleaning, grouping, aggregation)
+* Handling null values
+* Group-based imputation
+* Data preprocessing
 
-Matplotlib / Seaborn (optional visualizations)
+---
 
-📌 Project Tasks
-🔹 Task 1: Data Cleaning
+## 🔹 Task 2: Subject-wise Analysis
 
-Objectives:
+**Objectives:**
 
-Identify missing values in the dataset
+* Calculate average score per subject
+* Identify subject with highest average score
+* Determine subject with highest average study hours
+* Identify top-performing student in each subject
 
-Replace missing Score values with subject-wise average
+**Skills Applied:**
 
-Replace missing Hours_Studied values with overall mean
+* GroupBy operations
+* Aggregation functions
+* Sorting & ranking
 
-Drop rows where both Score and Hours_Studied are missing
+---
 
-Skills Applied:
+## 🔹 Task 3: Regional Analysis
 
-Handling null values
+**Objectives:**
 
-Group-based imputation
+* Calculate average score by region
+* Identify region with highest average study hours
+* Determine region with lowest overall performance
 
-Data preprocessing
+**Skills Applied:**
 
-🔹 Task 2: Subject-wise Analysis
+* Multi-level grouping
+* Comparative analysis
 
-Objectives:
+---
 
-Calculate average score per subject
+## 🔹 Task 4: Gender-Based Analysis
 
-Identify subject with highest average score
+**Objectives:**
 
-Determine subject with highest average study hours
+* Compare average score of male vs female students
+* Identify which gender studied more hours on average
+* Find top 3 highest-scoring female students
+* Find lowest 2 scoring male students
 
-Identify top-performing student in each subject
+**Skills Applied:**
 
-Skills Applied:
+* Filtering
+* Sorting
+* Conditional analysis
 
-GroupBy operations
+---
 
-Aggregation functions
+## 🔹 Task 5: Performance Categorization
 
-Sorting & ranking
+**Objectives:**
 
-🔹 Task 3: Regional Analysis
+* Create new column `Performance`
 
-Objectives:
+  * Label "High" if Score ≥ 80
+  * Label "Low" otherwise
+* Count students in each category
+* Compare performance distribution across subjects
 
-Calculate average score by region
+**Skills Applied:**
 
-Identify region with highest average study hours
+* Feature engineering
+* Conditional column creation
+* Value counts & distribution analysis
 
-Determine region with lowest overall performance
+---
 
-Skills Applied:
+## 🔹 Task 6: Insights & Trend Analysis
 
-Multi-level grouping
+**Objectives:**
 
-Comparative analysis
+* Analyze relationship between study hours and score
+* Identify student scoring above 80 with <10 study hours
+* Identify student studying >12 hours but scoring below 70
 
-🔹 Task 4: Gender-Based Analysis
+**Skills Applied:**
 
-Objectives:
+* Correlation understanding
+* Data filtering with conditions
+* Insight generation
 
-Compare average score of male vs female students
+---
 
-Identify which gender studied more hours on average
+# 🎯 Key Learning Outcomes
 
-Find top 3 highest-scoring female students
+* Data Cleaning Techniques
+* Missing Value Handling
+* Group-Based Aggregation
+* Feature Engineering
+* Analytical Thinking
+* Insight Generation
 
-Find lowest 2 scoring male students
+---
 
-Skills Applied:
 
-Filtering
-
-Sorting
-
-Conditional analysis
-
-🔹 Task 5: Performance Categorization
-
-Objectives:
-
-Create new column Performance
-
-Label "High" if Score ≥ 80
-
-Label "Low" otherwise
-
-Count students in each category
-
-Compare performance distribution across subjects
-
-Skills Applied:
-
-Feature engineering
-
-Conditional column creation
-
-Value counts & distribution analysis
-
-🔹 Task 6: Insights & Trend Analysis
-
-Objectives:
-
-Analyze relationship between study hours and score
-
-Identify student scoring above 80 with <10 study hours
-
-Identify student studying >12 hours but scoring below 70
-
-Skills Applied:
-
-Correlation understanding
-
-Data filtering with conditions
-
-Insight generation
-
-🎯 Key Learning Outcomes
-
-Data Cleaning Techniques
-
-Missing Value Handling
-
-Group-Based Aggregation
-
-Feature Engineering
-
-Analytical Thinking
-
-Insight Generation
