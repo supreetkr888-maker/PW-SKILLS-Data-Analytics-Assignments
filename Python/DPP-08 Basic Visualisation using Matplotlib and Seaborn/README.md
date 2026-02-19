@@ -1,11 +1,4 @@
-Maine tumhara sixth PDF **“Basic Visualisation using Matplotlib and Seaborn”** analyse kar liya hai 
 
-Yeh ek proper **Data Visualization Mini Project (Titanic Dataset)** hai.
-Isko GitHub pe simple questions ki list ki tarah nahi, ek structured visualization project ki tarah present karna chahiye.
-
-Neeche tumhare liye **portfolio-ready README format (no solutions)** 👇
-
----
 
 # 🚢 Titanic Data Visualization Project
 
