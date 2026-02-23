@@ -86,9 +86,6 @@ City-to-Zone mapping:
 * Delhi → North Zone
 * Chennai, Bengaluru → South Zone
 
-Output format:
-
-> "<Zone> – <Department>"
 
 ---
 
